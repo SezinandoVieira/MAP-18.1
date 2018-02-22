@@ -1,0 +1,69 @@
+Questão 1:
+
+	Ná etapa de analise é onde se faz a reunião com os stakeholders para realizar o levantamento dos requisitos junto aos mesmos e quais modelos
+de negócio serão utilizados no desenvolvimento.
+	Já ná etapa do projeto, será verificado como o sistema deve funcionar internamente, qual arquitetura de desenvolvimento, qual linguagem de 
+programação será utilizada para a fabricação do software, qual SGBD e etc...
+
+Questão 2:
+
+	As vantagens da orientação a objetos é a maior facilidade para a reutilização do codigo, possibilidade de se trabalhar em um alto nível de 
+abstração, utilização de um unico padrão conceitual, maior adequação ao modelo cliente/servidor, maior ciclo de vida para os sistemas e etc...
+
+Questão 3:
+
+	O motivo do levantamento dos requisitos funcionais, é porque são eles que dão "vida" ao sistema. É através deles que podemos saber 
+como vai ser comportar determinada função do sistema e qual o nivel de importancia dela para o mesmo. O que faz parte desta descrição é: 
+a identificação do requisito, a descrição, o seu nivel de importancia, quais são as entradas e quais são as saidas, comportamento, pré condição
+de funcionamento, pós condição, lista de requisitos dependentes e como medir estes requisitos.
+
+Questão 5:
+
+	O Iterator é um meio de acessar, sequencialmente, os elementos de um objeto agregado sem expor sua representação subjacente. A principal
+vantagem do Iterator é que faz com que precisemos de apenas um loop para acessar as informações de qualquer coleção de dados, desde que a mesma
+implemente o Iterator.
+
+Questão 7:
+
+	O return serve para retornar o resultado de um método que possua retorno, como por exemplo um método que soma 2 numeros. O return irá 
+retornar o resultado dessa soma através de uma variável. Já o throw irá lançar uma exceção caso alguma coisa que não foi prevista aconteça 
+no metodo de somar.
+
+Questão 9:
+
+	As vantagens do polimorfismo são: permitir que varios objetos de um mesmo tipo base sejam tratados da mesma maneira, permitir aumentar
+um software de maneira mais controlada, torna o codigo mais fácil de escrever e entender, a escalabilidade, o overloading e o overriding.
+	Desvantagens do polimorfismo: como com o polimorfismo, você pode fazer uma classe genérica e "quebrar" ela em várias classes secundarias,
+isso pode se tornar um problema de alto acoplamento caso não seja feito da maneira correta.
+
+Questão 10: 
+
+	Essa afirmação quer dizer que, como as interfaces "obrigam" as classes que a implementam seguir um padrão de metodos, pode se trabalhar 
+com objetos de diferentes tipos, desde que eles implementem as mesma interface.
+
+Questão 11: 
+
+	A diferença entre Herança de tipo e herança de implementação é que na herança de tipo, as classes herdeiras, herdam características de 
+uma superclasse abstrata que geralmente é uma classe generica. Ja na de implementação a "herança" ocorre através da implementação de uma 
+interface, que ela faz com que as classes que a implementem sigam o mesmo padrão.
+
+Questão 12:
+
+	A vantagem do forte acoplamento é que voce pode delegar várias funções a uma classe e caso voce precise mudar alguma função, estará tudo 
+nesta classe. A desvantagem, vem da própia "vantagem" já que como você está delegando várias responsabiladades a uma mesma classe, e muitas
+destas funções não são de responsabilidade da mesma, ao mudar alguma coisa você compromete a funciomalidade de todas as outras classes que 
+são dependentes desta god class.
+
+Questão 13: 
+
+
+
+Questão 14:
+
+	A responsabilidade de uma classe seria a função que a mesma deve desempenhar dentro do sistema. Neste caso, mais não seria melhor, porque
+quanto mais responsabilidades uma classe tiver, maior se torna o acoplamento e com isso, é ocasionada a perda de coesão e tambem caso seja 
+necessário realizar alguma mudança nesta classe, e muitas vezes são mudanças que não são feitas pelo programador original, todas as classes
+dependentes irão "quebrar"
+
+Questão 15:
+
