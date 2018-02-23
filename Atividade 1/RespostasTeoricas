@@ -56,7 +56,9 @@ são dependentes desta god class.
 
 Questão 13: 
 
-
+	Um exemplo do que poderia ser escondido pela decomposição seria estruturas complexas que para utilizar não precisar saber de sua
+implementação, mas sim do seu funcionamento. Como por exemplo o metodo Math.pow que recebe dois numeros e eleva um pelo outro. Você não precisa
+saber como a classe Math é implementada, mas sim o que os seus metodos fazem.
 
 Questão 14:
 
