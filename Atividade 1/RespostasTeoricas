@@ -44,8 +44,8 @@ com objetos de diferentes tipos, desde que eles implementem as mesma interface.
 Questão 11: 
 
 	A diferença entre Herança de tipo e herança de implementação é que na herança de tipo, as classes herdeiras, herdam características de 
-uma superclasse abstrata que geralmente é uma classe generica. Ja na de implementação a "herança" ocorre através da implementação de uma 
-interface, que ela faz com que as classes que a implementem sigam o mesmo padrão.
+uma interface que geralmente que geralmente contem metodos genericos. Ja na de implementação a herança ocorre através de uma 
+de uma classe abstrata, que geralmente é uma classe generica, que ela faz com que as classes que a herdam possam implementar os seus metodos.
 
 Questão 12:
 
