@@ -32,9 +32,11 @@ no metodo de somar.
 Questão 9:
 
 	As vantagens do polimorfismo são: permitir que varios objetos de um mesmo tipo base sejam tratados da mesma maneira, permitir aumentar
-um software de maneira mais controlada, torna o codigo mais fácil de escrever e entender, a escalabilidade, o overloading e o overriding.
+um software de maneira mais controlada, torna o codigo mais fácil de escrever e entender, a extensibilidade, o overloading e o overriding.
 	Desvantagens do polimorfismo: como com o polimorfismo, você pode fazer uma classe genérica e "quebrar" ela em várias classes secundarias,
 isso pode se tornar um problema de alto acoplamento caso não seja feito da maneira correta.
+	Um exemplo seria caso voce precise criar um sistema que cadastre pessoas, você pode criar uma classe pessoas e especializar ela
+em funcionario, gerente e etc... (caso seja um sistema de cadastro de funcionarios)
 
 Questão 10: 
 
