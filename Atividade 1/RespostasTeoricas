@@ -71,3 +71,6 @@ dependentes irão "quebrar"
 
 Questão 15:
 
+	Porque usando composição, eu posso instanciar um objeto novo em tempo de execução tornado o sistema mais flexível e já utilizando tipos
+você deixa os tipos mais amarrados e deixando a possibilidade de um objeto mudar de tipo mais dificil.
+
