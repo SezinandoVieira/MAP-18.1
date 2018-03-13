@@ -7,43 +7,43 @@ import br.cesed.unifacisa.si.map.atividade5.interfaces.ingredients.Dough;
 import br.cesed.unifacisa.si.map.atividade5.interfaces.ingredients.Pepperoni;
 import br.cesed.unifacisa.si.map.atividade5.interfaces.ingredients.Sauce;
 import br.cesed.unifacisa.si.map.atividade5.interfaces.ingredients.Veggies;
+import br.cesed.unifacisa.si.map.atividade5.main.ingredientsClass.FreshClams;
+import br.cesed.unifacisa.si.map.atividade5.main.ingredientsClass.FreshVeggies;
+import br.cesed.unifacisa.si.map.atividade5.main.ingredientsClass.MarinaraSauce;
+import br.cesed.unifacisa.si.map.atividade5.main.ingredientsClass.MozzarellaCheese;
+import br.cesed.unifacisa.si.map.atividade5.main.ingredientsClass.PepperoniMeat;
+import br.cesed.unifacisa.si.map.atividade5.main.ingredientsClass.ThinCrushDough;
 
 public class NYPizzaFactory implements PizzaIngredientFactory {
 
 	@Override
 	public Dough createDough() {
-		// TODO Auto-generated method stub
-		return null;
+		return new ThinCrushDough();
 	}
 
 	@Override
 	public Clams createClams() {
-		// TODO Auto-generated method stub
-		return null;
+		return new FreshClams();
 	}
 
 	@Override
 	public Pepperoni createPepperoni() {
-		// TODO Auto-generated method stub
-		return null;
+		return new PepperoniMeat();
 	}
 
 	@Override
 	public Cheese createCheese() {
-		// TODO Auto-generated method stub
-		return null;
+		return new MozzarellaCheese();
 	}
 
 	@Override
 	public Sauce createSauce() {
-		// TODO Auto-generated method stub
-		return null;
+		return new MarinaraSauce();
 	}
 
 	@Override
 	public Veggies createVeggies() {
-		// TODO Auto-generated method stub
-		return null;
+		return new FreshVeggies();
 	}
 
 }
