@@ -1,0 +1,1 @@
+As principais diferenças de GO para java é que em GO você apenas utiliza a composição o que facilita bastante. E se caso na linguagem Java eu quisesse colocar um tipo pai dentro da classe filho eu teria que colocar todos os atributos da classe, já no go eu só preciso criar uma interface em que eu possa compor os objetos pai e filho eles passam a ser do mesmo tipo de interface
